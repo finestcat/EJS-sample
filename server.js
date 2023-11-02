@@ -3,8 +3,8 @@ const assert = require('assert');
 const MongoClient = require('mongodb').MongoClient;
 const ObjectID = require('mongodb').ObjectID;
 
-const mongourl = 'mongodb+srv://alligator:<wanker125125>@cluster0.cyrgbvc.mongodb.net/?retryWrites=true&w=majority'; 
-const dbName = 'test01';
+const mongourl = 'mongodb+srv://alligator:wanker125125@cluster0.cyrgbvc.mongodb.net/?retryWrites=true&w=majority'; 
+const dbName = 'test02';
 
 const express = require('express');
 const bodyParser = require('body-parser');
